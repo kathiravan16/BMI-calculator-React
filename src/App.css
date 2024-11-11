@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #535c68;
+}
+
+.bmi-caluclator{
+  width: 800px;
+  height: 500px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: flex;
+}
+.box{
+  width: 350px;
+  background-image: url("assets/bmi2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.data{
+
+  flex: 1;
+  padding: 15px;
+}
+
+h1{
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding: 10px 0px;
+  text-transform: uppercase;
+}
+
+.input-container{
+  margin-bottom: 15px;
+}
+
+label{
+  display: flex;
+  margin-bottom: 5px;
+  color: #535c68;
+}
+
+input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+button{
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover{
+  background-color: rgb(88, 82, 82);
+  color: #fafbfb;
+}
+
+.result{
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #3498db;
+  border-radius: 4px;
+}
+
+.result p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.result p:first-child{
+  color: #3498db;
+  font-weight: bold;
+}
+
+.error{
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.clear{
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 10px;
+}
+
+.button:hover{
+  background-color: #ffebeb;
+}
